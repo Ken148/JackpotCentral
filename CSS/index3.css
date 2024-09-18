@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    height: 1000px;
+    width: 100%;
+    font-family: 'Arial', sans-serif;
+}
+p{
+    color:white;
+}
+#links {
+    text-decoration: none;
+    padding: 5px 20px 5px 20px;
+    color: #FFFFFF;
+}
+#links2 {
+    text-decoration: none;
+    color:blue;
+}
+#main_td{
+    padding-left:20px;
+}
+#table2{
+    border: 1px solid #FFFFFF;
+    padding: 5px 1px 5px 1px;
+    border-radius:100px;
+}
+#logo{
+    height:90px;
+}
+#header_1 {
+    height: 100px;
+    background-color: #000000;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index:1;
+}
+#bottom_footer {
+    height: 45px;
+    background-color: #000000;
+    width: 100%;
+    text-align:center;
+    margin-bottom:10px;
+    padding-top:13px;
+}
+#bottom_footer a {
+    color: #DAA520;
+}
+#links:hover {
+    background-color:#bb9f5f;
+    border-radius: 100px;
+}
+#links2:hover {
+    background-color:gray;
+    border-radius:10px;
+}
+#logout {
+    position: absolute; 
+    top: 40px; 
+    right: 10px; 
+    padding-right: 10px; 
+    color: #FFFFFF;
+}
+#black_line{
+    background-color:#000000;
+    top:0;
+    height:75px;
+    width:100%;
+}
+#pic1 {
+    margin-top:100px;
+    height:500px;
+    justify-content:center;
+    background-color: #000000;
+    display:flex;
+    border-top:1px solid white;
+    border-bottom:1px solid white;
+}
+#box{
+    padding-left:15px;
+    padding-right:15px;
+    padding-top:130px;
+    margin:0;
+}
+#text1{
+    color:#bb9f5f;
+    border:2px solid #FFFFFF;
+    border-radius:30px;
+    padding: 5px 10px 5px 10px;
+    margin: 0;
+}
+#text2{
+    padding: 5px 10px 5px 10px;
+    color:#FFFFFF;
+}
+#middle_footer {
+    height: 1020px;
+    border-collapse: collapse;
+    background-color: #ede6d2;
+    width: 100%;
+    margin: 0 auto; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+#jackpot_text {
+    text-align:justify;
+    font-size: 1.3em;
+    line-height: 1.6; 
+    width:70%;
+    padding-top:40px;
+    padding-bottom:400px;
+    padding-right:40px;
+    padding-left:40px;
+    background-color:#f4f0e6;
+    height: 100%;
+    box-sizing: border-box; 
+}
+#ul2{
+    padding-left:25px;
+}
+#jackpot_text p {
+    color: black;
+}
+#jackpot_text strong {
+    font-weight: bold; 
+}
+#jackpot_text .highlight {
+    color: #bb9f5f; 
+    font-weight: bold; 
+}
